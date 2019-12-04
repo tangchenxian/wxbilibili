@@ -1,0 +1,136 @@
+/* pages/detail/detail.wxss */
+/* 视频详情 */
+.main{
+    padding: 10rpx;
+    color: #666666;
+}
+/* 视频详情信息 */
+.video_info{
+    margin-top: 10rpx;
+
+}
+/* 视频详情信息 视频 */
+.video_info video{
+    width: 100%;
+}
+/* 视频详情信息  标题*/
+.video_title{
+    display: flex;
+    justify-content:space-between ;
+    font-size: 30rpx;
+
+}
+/* 视频详情的播放量 */
+.video_detail{
+    margin-top: 5rpx;
+    font-size: 28rpx;
+}
+.video_detail text{
+  margin-left: 15rpx;
+}
+/* 视频详情的作者 */
+.video_detail .author{
+    color: #000000;
+}
+/* 推荐视频 */
+.other_list{
+    margin-top: 10rpx;
+   
+
+}
+/* 超链接 */
+.item_other{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:20rpx ;
+}
+/* 图片容器 */
+.other_img_wrap{
+    width: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* 图片容器中图片 */
+.other_img_wrap image{
+    width: 90%;
+    border-radius: 15rpx;
+}
+/*  推荐视频的详情 */
+.other_info{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+/*推荐 视频的标题 */
+.other_title{
+    font-size: 30rpx;
+    color: #e06f93;
+}
+/* 推荐视频播放量 */
+.other_detail{
+    color: #666666;
+    font-size: 26rpx;
+}
+.other_detail text{
+    margin-left: 10rpx;
+} 
+/* 评论列表 */
+.comment_wrap{
+    margin-top: 10rpx;
+}
+.comment_title{
+    padding: 10rpx;
+    font-size: 28rpx;
+}
+.comment_list{
+
+}
+.comment_item{
+    margin-bottom: 10rpx;
+    padding: 10rpx;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #666666;
+}
+.comment_user{
+    flex: 1;
+    display: flex;
+    /* 子元素在中间 */
+    justify-content: center;
+    /* 设置或检索弹性盒子元素在侧轴（纵轴）方向上的对齐方式
+    center 在y轴中居中 */
+    align-items: center;
+}
+.comment_user image{
+width: 60%;
+/* 添加圆角 */
+border-radius:50% ;
+} 
+.comment_info{
+    flex: 5;
+    display: flex;
+    /*    flex-direction: column; 让元素沿垂直主轴从上到下垂直排列 */
+    flex-direction: column; 
+    /* 均匀排列每个元素 每个元素周围分配相同的空间 */
+    justify-content: space-around;
+}
+.comment_detail{
+    display: flex;
+     /* 均匀排列每个元素 首个元素放置于起点，末尾元素放置于终点 */
+    justify-content: space-between;
+}
+.comment_detail .comment_author{
+    font-size: 28rpx;
+    color: #000000;
+}
+.comment_detail .comment_date{
+    font-size: 24rpx;
+    color: #666666;
+}
+.comment_content{
+    font-size: 28rpx;
+    color: #000;
+}
